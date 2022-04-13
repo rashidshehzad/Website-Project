@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(144, 199, 201);
+    font-family: jokerman;
+    font-size: 20;
+}
+
+p {
+    border-color: red;
+    border-style: double;
+    background-color: rgb(70, 179, 160);
+}
+
+li {
+    border-style: dotted;
+    border-color: cadetblue;
+    border-width: 5;
+    border-right: -200;
+    display: table;
+}
+
+li:hover {
+    background-color: rgb(166, 222, 224);
+    border-color: plum;
+}
+
+li img {
+    width: 300;
+}
+
+table {
+    border-style: groove;
+    border-color: bisque;
+    background-color: rgb(70, 179, 160);
+    text-align: center;
+    margin-left: 5%;
+}
+
+td {
+    border-style: dotted;
+    border-color: aliceblue;
+}
+
+.return {
+    text-align: center;
+    border-style: dashed;
+    background-color: aquamarine;
+}
+
+td:hover {
+    background-color: rgb(36, 100, 102);
+}
